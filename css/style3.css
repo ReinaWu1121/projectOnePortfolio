@@ -1,0 +1,200 @@
+* {
+    margin:0;
+    padding:0
+    }
+    
+    .mia {
+    margin:0;
+    padding:0;
+    border-width:0;
+    width:120px
+    }
+    
+    nav {
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#092D4C;
+
+    /* ---- The following code is adapted from:
+    W3 School;
+    https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-shadow5 ---- */
+
+    box-shadow:0 4px 8px 0 #0003 0 6px 20px 0 #00000030;
+        
+    /* ----- End of cited code source ------- */
+    
+    padding-top:16px;
+    padding-bottom:16px
+    }
+    
+    nav a {
+    text-decoration:none;
+    text-transform:capitalize;
+    font-family:"Big Shoulders Text",system-ui;
+    font-weight:300;
+    font-size:36px;
+    color:#fff;
+    margin-top:30px;
+    margin-bottom:15px
+    }
+    
+    .on {
+    color:#ff3b58
+    }
+    
+    nav a:hover {
+    transform:scale(1.75);
+    color:#ff9dac
+    }
+    
+    img {
+    width:1000px;
+    text-align:center;
+    border-radius:10px;
+    border-style:outset;
+    border-width:10px;
+    border-color:#ff3b58;
+
+    /* ---- The following code is adapted from:
+    W3 School;
+    https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-shadow5 ---- */
+
+    box-shadow:0 4px 8px 0 #0003 0 6px 20px 0 #00000030
+        
+    /* ----- End of cited code source ------- */
+    
+    }
+    
+    h3 {
+    text-align:center;
+    font-family:"Bebas Neue",sans-serif;
+    font-size:120px;
+    color:#ff3b58;
+    background-color:#34638C;
+
+    /* ---- The following code is adapted from:
+    W3 School;
+    https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-shadow5 ---- */
+
+    box-shadow:0 4px 8px 0 #0003 0 6px 20px 0 #00000030
+        
+    /* ----- End of cited code source ------- */
+    
+    }
+    
+    h3:hover {
+    transform:scale(1.15)
+    }
+    
+    dl {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:80px
+    }
+    
+    dd {
+    text-align:center;
+    font-family:"Bebas Neue",sans-serif;
+    font-size:80px;
+    color:#3F04BF;
+    margin-top:60px
+    }
+    
+    dd:hover {
+    transform:scale(1.2)
+    }
+
+    p {
+    margin-top: 20px;
+    width:600px;
+    font-family:"Poppins",sans-serif;
+    font-weight:400;
+    font-size:22px;
+    text-align:center
+    }
+
+    /* ---- The following code is adapted from:
+        W3 School;
+        https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_shake ---- */
+
+    img:hover {
+        animation:shake 5s;
+        animation-iteration-count:infinite
+    }
+
+    @keyframes shake {
+    0% {
+    transform:translate(1px,1px) rotate(0deg)
+    }
+    
+    10% {
+    transform:translate(-1px,-2px) rotate(-1deg)
+    }
+    
+    20% {
+    transform:translate(-3px,0px) rotate(1deg)
+    }
+    
+    30% {
+    transform:translate(3px,2px) rotate(0deg)
+    }
+    
+    40% {
+    transform:translate(1px,-1px) rotate(1deg)
+    }
+    
+    50% {
+    transform:translate(-1px,2px) rotate(-1deg)
+    }
+    
+    60% {
+    transform:translate(-3px,1px) rotate(0deg)
+    }
+    
+    70% {
+    transform:translate(3px,1px) rotate(-1deg)
+    }
+    
+    80% {
+    transform:translate(-1px,-1px) rotate(1deg)
+    }
+    
+    90% {
+    transform:translate(1px,2px) rotate(0deg)
+    }
+    
+    100% {
+    transform:translate(1px,-2px) rotate(-1deg)
+    }
+    }
+
+    /* ----- End of cited code source ------- */
+    
+    .foot {
+    background-color:#092d4c;
+    display:flex;
+    justify-content:center;
+    padding-top:22px;
+    padding-bottom:22px;
+
+    /* ---- The following code is adapted from:
+    W3 School;
+    https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-shadow5 ---- */
+
+    box-shadow:0 4px 8px 0 #0003 0 6px 20px 0 #00000030
+    }
+    
+    /* ----- End of cited code source ------- */
+
+    footer a {
+    font-family:"Big Shoulders Text",system-ui;
+    text-decoration:none;
+    font-weight:300;
+    font-size:20px;
+    color:#fff
+    }
+    
+    footer:hover {
+    transform:scale(1.2)
+    }
